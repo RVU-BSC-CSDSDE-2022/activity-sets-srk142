@@ -14,7 +14,8 @@ int compare(int a, int b, int c){
   else if(b>a && b>c){
     printf("b is the largest.");
   }
-  else if(c>a && c>b){
+  else if(c>a && c>b)
+  {
     printf("c is the largest.");
-  }
+  }
 }
