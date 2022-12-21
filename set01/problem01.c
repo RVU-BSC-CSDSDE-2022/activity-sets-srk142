@@ -1,7 +1,5 @@
-#include<stdio.h>
-int main(void)
+#include <stdio.h>
+main()
 {
-  printf("sahil singh\n ");
-  printf("musharrat\n");
- return(0);
+  printf("sahil\tprince\tsalman\t");
 }
