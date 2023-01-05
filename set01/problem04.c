@@ -13,13 +13,12 @@ void add(int a, int b, int *sum){
   *sum= a+b;
 }
 void output(int a, int b, int sum){
-  printf("the sum of %d and %d and %d is %d",a,b,sum);
-  
+  printf("the sum of %d and %d is %d\n",a,b,sum);
 }
 int main(){
   int a,b,sum;
   a=input();
   b=input();
   add(a,b,&sum);
-  printf("the sum of the number%d\n",sum);
+  output(a,b,sum);
 }
