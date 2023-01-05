@@ -26,8 +26,23 @@ int sum_n_array(int n, int a[n]){
     sum=sum+a(i);
     
   }
-  return n
+  return sum;
 }
 void output(int n, int a[n], int sum){
+ print("the sum of ");
+  for(int i=0;i<n;i++)
+    {
+      printf("%d",a[i]);
+      }
+ 5   printf("is %d",sum);
+  }
+int main()
+int n, sum=0;
+n=input_array_size();
+int a[n];
+input_array()
+
+
+printf("%d",sum)
   
 }
