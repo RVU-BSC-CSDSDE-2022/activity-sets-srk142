@@ -40,9 +40,9 @@ int main()
 int n, sum=0;
 n=input_array_size();
 int a[n];
-input_array()
-
-
-printf("%d",sum)
+input_array(n,a);
+sum=sum_n_array(n,a);
+output(n,a,sum);
+return 0;
   
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 int input();
-void add(int a, int b, int c);
+int compare(int a, int b, int c);
 void output(int a, int b, int c, int largest);
 
 int input()
@@ -10,13 +10,20 @@ int input()
   scanf("%d", &n);
   return n;
 }
-int find_largest(int a, int b, int c)
+int compare(int a, int b, int c)
 {
-  
-  return a>b?(a>c?a:c):(b>c?b:c);
-  
+ a=largest;
+ if (b>largest)
+ {
+   largest=b;
+ }
+ if (c>largest)
+ {
+   largest=c;
+ }
+ return largest;
 }
 void output(int a, int b, int c, int largest)
 {
-  printf("enter a number \n");
+  printf("the larger of %d,%d,%d is %d",a,b,c,largest);
 }
