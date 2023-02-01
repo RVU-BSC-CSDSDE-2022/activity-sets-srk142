@@ -21,11 +21,11 @@ float input()
 float square_root(float n)
 {
   float guess = n/2;
-	next = 0.5*(guess + x/guess)
+	next = 0.5*(guess + x/ guess)
 	while (fabs(next - guess) > 0.000001)
 	{
 		guess = next;
-		next = 0.5(guess + x/guess);
+		next = 0.5(guess + x/ guess);
 	}
 	return next;
 
